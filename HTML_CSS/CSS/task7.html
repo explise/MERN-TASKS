@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7</title>
+    <style>
+        body{
+            background-color: #E30B5D;
+            
+            
+        }
+        .container{
+            
+            background-color: #6d082e;
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px 60px 10px 60px;
+            color: white;
+        }
+        .register{
+            width: 100%;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <table>
+        <tr>
+          <td>Name:</td>
+          <td><input type="text" id="name" placeholder="your name" style="margin-bottom: 10px;"></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><input type="email" id="email" placeholder="your email" style="margin-bottom: 10px;"/></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td><input type="password" id="password" style="margin-bottom: 10px;"/></td>
+        </tr>
+        <tr>
+            <td>Phone Number:</td>
+            <td><input type="number" id="phone_number" style="margin-bottom: 10px;"/></td>
+          </tr>
+        <tr>
+          <td><label for="gender" >Gender: </label></td>
+          <td style="text-align: left; margin-bottom: 10px;">
+            Male<input type="radio" id="male" name="gender" />
+            Female<input type="radio" id="female" name="gender" />
+            Other<input type="radio" id="other" name="gender" />
+          </td>
+        </tr>
+        <tr>
+          <td >language</td>
+          <td>
+            <select name="language" id="language" style="margin-top: 10px; margin-bottom: 10px; padding: 4px;">
+                <option>Select language</option>
+                <option>English</option>
+                <option>Hindi</option>
+                <option>Kannada</option>
+                <option>Telugu</option>
+          </td>
+        </tr>
+        <tr>
+            <td >Zip Code:</td>
+            <td ><input type="number" id="zip_code" /></td>
+          </tr>
+        <tab>
+        <tr>
+            <td>About</td>
+            <td ><textarea style="margin-top: 10px; " id="about" placeholder="Write about yourself.." cols="23" rows="3"></textarea></td>
+        </tr>
+        <tr>
+            <td   colspan="2"><button style="margin-top: 10px;" class="register">Register</button></td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>

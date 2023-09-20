@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-6</title>
+    <style>
+      .container {
+        margin-left: 32%;
+        margin-right: 32%;
+        margin-top: 50px;
+        max-height: 600px;
+      }
+      img {
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px;
+        width: 35%;
+      }
+      input[type= text] , input[type=password]{
+        margin-top: 2px;
+        margin-bottom: 10px;
+        padding: 10px 10px 10px 10px;
+        width: 95%;
+      }
+      .uname {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      button.login{
+        padding: 10px 10px 10px 10px ;
+        margin-bottom: 20px;
+        background-color: green;
+        border-radius: 5px;
+        border-color: white;
+        color: white;
+        width: 100%;
+      }
+      button.cancel{
+        border-radius: 5px;
+        border-color: white;
+        padding: 10px 10px 10px 10px;
+        height: 50px;
+        width: 100px;
+        font-size: medium;
+        background-color: red;
+        color: white;
+      }
+      .rest{
+        margin-top: 20px;
+        background-color: lightgrey;
+        padding: 20px 2px 10px 2px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="https://cureindia.org/assets/images/avatar2-499x498.png" />
+      </div>
+      <div class="uname">
+        <form>
+          <b><label for="username">Username</label><br />
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Enter Username" /><br />
+          <label for="pwd">Password</label><br />
+          <input
+            type="password"
+            id="pwd"
+            name="pwd"
+            placeholder="Enter Password" />
+        </b>
+          <button class="login">Login</button></br>
+          <input type="checkbox" id="remember" />
+          <label for="remeber"> Remember me</label><br />
+        </form>
+        </div>
+        <div class="rest">
+            <button class="cancel">Cancel</button>
+            <a style="padding-left: 50%;" href="">Forgot Password?</a>
+        </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-5</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-family: "Courier New", Courier, monospace;
+      }
+      table,
+      tr,
+      th,
+      td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #fname,
+      #lname,
+      #email,
+      #password,
+      #age,
+      #address,
+      #state,
+      #country,
+      #gender {
+        width: 97%; /* Set input width to 100% of the column */
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Registration Form</h1>
+    <table>
+      <tr>
+        <td>First Name:</td>
+        <td><input type="text" id="fname" /></td>
+      </tr>
+      <tr>
+        <td>Last Name:</td>
+        <td><input type="text" id="lname" /></td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td><input type="email" id="email" /></td>
+      </tr>
+      <tr>
+        <td>Password:</td>
+        <td><input type="password" id="password" /></td>
+      </tr>
+      <tr>
+        <td>Re-enter Password:</td>
+        <td><input type="password" id="password" /></td>
+      </tr>
+      <tr>
+        <td><label for="gender">Gender: </label></td>
+        <td style="text-align: left">
+          <input type="radio" id="male" name="gender" />Male<br />
+          <input type="radio" id="female" name="gender" />Female
+        </td>
+      </tr>
+      <tr>
+        <td>Age:</td>
+        <td><input type="number" id="age" /></td>
+      </tr>
+      <tr>
+        <td>Address</td>
+        <td><textarea id="address"></textarea></td>
+      </tr>
+      <tr>
+        <td>State</td>
+        <td><input type="text" id="state" /></td>
+      </tr>
+      <tr>
+        <td>Country</td>
+        <td>
+          <select name="country" id="country">
+            <option>Choose Your Country</option>
+            <option>India</option>
+            <option>Australia</option>
+            <option>USA</option>
+            <option>Nepal</option>
+            <option>England</option>
+            <option>Other</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Languages Known</td>
+        <td>
+          <input type="checkbox" id="english" name="language" />English
+          <input type="checkbox" id="kannada" name="language" />Kannada
+          <input type="checkbox" id="hindi" name="language" />Hindi
+          <input type="checkbox" id="telugu" name="language" />Telugu
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: left">
+          <input type="checkbox" id="declare" /> I declare all the given details
+          are true
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: right">
+          Log in to <a href="">Ethnus</a> Website
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

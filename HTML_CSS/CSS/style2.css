@@ -1,0 +1,36 @@
+.vnb{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: lightblue;
+            width: 150px;
+            border-style: double;
+            
+        }
+        .avnb{
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+        }
+        .avnb:hover{
+            background-color: orange;
+        }
+
+        .hnb{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color:lightgray;
+            width: 350px;
+            border-style: double;
+            display: flex;
+            
+        }
+        .ahnb{
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+        }
+        .ahnb:hover{
+            background-color:dimgrey;
+        }
